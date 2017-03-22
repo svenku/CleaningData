@@ -2,6 +2,89 @@ Codebook for tidydata.txt
 
 tidydata.txt is a tidy data file created by the run_analysis.R script.
 
-It includes mean values for 79 variables collected from usage of wearable devices worn by 30 volunteers (variable: subjectnumber) wearing Samsung Galaxy S2 smartphone on waist while performing 6 different activities (variable: activity = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+It includes mean values for 79 variables (see below for list) collected from usage of wearable devices worn by 30 volunteers (variable: subjectnumber) wearing Samsung Galaxy S2 smartphone on waist while performing 6 different activities (variable: activity = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 Please follow comments in script file for more information.
+
+The 79 variables are: 
+
+timeBodyAccelerometer-mean()-X
+timeBodyAccelerometer-mean()-Y
+timeBodyAccelerometer-mean()-Z
+timeBodyAccelerometer-std()-X
+timeBodyAccelerometer-std()-Y
+timeBodyAccelerometer-std()-Z
+timeGravityAccelerometer-mean()-X
+timeGravityAccelerometer-mean()-Y
+timeGravityAccelerometer-mean()-Z
+timeGravityAccelerometer-std()-X
+timeGravityAccelerometer-std()-Y
+timeGravityAccelerometer-std()-Z
+timeBodyAccelerometerJerk-mean()-X
+timeBodyAccelerometerJerk-mean()-Y
+timeBodyAccelerometerJerk-mean()-Z
+timeBodyAccelerometerJerk-std()-X
+timeBodyAccelerometerJerk-std()-Y
+timeBodyAccelerometerJerk-std()-Z
+timeBodyGyroscope-mean()-X
+timeBodyGyroscope-mean()-Y
+timeBodyGyroscope-mean()-Z
+timeBodyGyroscope-std()-X
+timeBodyGyroscope-std()-Y
+timeBodyGyroscope-std()-Z
+timeBodyGyroscopeJerk-mean()-X
+timeBodyGyroscopeJerk-mean()-Y
+timeBodyGyroscopeJerk-mean()-Z
+timeBodyGyroscopeJerk-std()-X
+timeBodyGyroscopeJerk-std()-Y
+timeBodyGyroscopeJerk-std()-Z
+timeBodyAccelerometerMagnitude-mean()
+timeBodyAccelerometerMagnitude-std()
+timeGravityAccelerometerMagnitude-mean()
+timeGravityAccelerometerMagnitude-std()
+timeBodyAccelerometerJerkMagnitude-mean()
+timeBodyAccelerometerJerkMagnitude-std()
+timeBodyGyroscopeMagnitude-mean()
+timeBodyGyroscopeMagnitude-std()
+timeBodyGyroscopeJerkMagnitude-mean()
+timeBodyGyroscopeJerkMagnitude-std()
+frequencyBodyAccelerometer-mean()-X
+frequencyBodyAccelerometer-mean()-Y
+frequencyBodyAccelerometer-mean()-Z
+frequencyBodyAccelerometer-std()-X
+frequencyBodyAccelerometer-std()-Y
+frequencyBodyAccelerometer-std()-Z
+frequencyBodyAccelerometer-meanFreq()-X
+frequencyBodyAccelerometer-meanFreq()-Y
+frequencyBodyAccelerometer-meanFreq()-Z
+frequencyBodyAccelerometerJerk-mean()-X
+frequencyBodyAccelerometerJerk-mean()-Y
+frequencyBodyAccelerometerJerk-mean()-Z
+frequencyBodyAccelerometerJerk-std()-X
+frequencyBodyAccelerometerJerk-std()-Y
+frequencyBodyAccelerometerJerk-std()-Z
+frequencyBodyAccelerometerJerk-meanFreq()-X
+frequencyBodyAccelerometerJerk-meanFreq()-Y
+frequencyBodyAccelerometerJerk-meanFreq()-Z
+frequencyBodyGyroscope-mean()-X
+frequencyBodyGyroscope-mean()-Y
+frequencyBodyGyroscope-mean()-Z
+frequencyBodyGyroscope-std()-X
+frequencyBodyGyroscope-std()-Y
+frequencyBodyGyroscope-std()-Z
+frequencyBodyGyroscope-meanFreq()-X
+frequencyBodyGyroscope-meanFreq()-Y
+frequencyBodyGyroscope-meanFreq()-Z
+frequencyBodyAccelerometerMagnitude-mean()
+frequencyBodyAccelerometerMagnitude-std()
+frequencyBodyAccelerometerMagnitude-meanFreq()
+frequencyBodyBodyAccelerometerJerkMagnitude-mean()
+frequencyBodyBodyAccelerometerJerkMagnitude-std()
+frequencyBodyBodyAccelerometerJerkMagnitude-meanFreq()
+frequencyBodyBodyGyroscopeMagnitude-mean()
+frequencyBodyBodyGyroscopeMagnitude-std()
+frequencyBodyBodyGyroscopeMagnitude-meanFreq()
+frequencyBodyBodyGyroscopeJerkMagnitude-mean()
+frequencyBodyBodyGyroscopeJerkMagnitude-std()
+frequencyBodyBodyGyroscopeJerkMagnitude-meanFreq()
+
